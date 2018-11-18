@@ -107,7 +107,7 @@ export default class PatientView extends React.Component {
 				<div className="patient-view__new">
 					<div className="patient-view__new__row">
 						<div className="patient-view__new__row--item">
-							<legend>Pain Tolerance</legend>
+							<legend>Pain Level</legend>
 							<select
 								onChange={this.updateNewRecord}
 								value={this.state.newRecord.pain_tolerance}
@@ -191,7 +191,11 @@ export default class PatientView extends React.Component {
 						</div>
 						<div className="patient-view__new__row--item">
 							<legend>Taste Change</legend>
-							<select value={this.state.newRecord.nausea} name="nausea" onChange={this.updateNewRecord}>
+							<select
+								value={this.state.newRecord.taste_change}
+								name="taste_change"
+								onChange={this.updateNewRecord}
+							>
 								<option value={0}>0</option>
 								<option value={1}>1</option>
 								<option value={2}>2</option>

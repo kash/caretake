@@ -16,7 +16,7 @@ export default class PrevRecord extends React.Component {
 					<div className="prev-record__row__item">
 						<div className="prev-record__row__icon">
 							<i className="fas fa-user-injured" />
-							Pain Tolernace
+							Pain Level
 						</div>
 						<div className="prev-record__row__bar">
 							<div
