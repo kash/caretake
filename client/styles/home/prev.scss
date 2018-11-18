@@ -1,0 +1,59 @@
+.prev-record {
+	background-color: white;
+	box-shadow: 0 2px 15px rgba(black, 0.1);
+	border: 1px solid lighten(black, 90%);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 40px;
+
+	&__row:not(:last-of-type) {
+		margin-bottom: 15px;
+		border-bottom: 1px solid lighten(black, 70%);
+	}
+
+	&__row {
+		padding: 30px 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		&__icon {
+			display: table;
+			font-size: 1rem;
+			font-weight: bold;
+			margin-bottom: 8px;
+			opacity: 0.8;
+			i {
+				margin-right: 5px;
+			}
+		}
+
+		&__bar {
+			width: 160px;
+			border-radius: 2px;
+			height: 4px;
+			position: relative;
+			background-color: lighten(black, 90%);
+			&--fill {
+				position: absolute;
+				left: 0;
+				top: 0;
+				border-radius: 2px;
+				height: 100%;
+				background-color: #027ef9;
+			}
+		}
+
+		&__item {
+			width: 31%;
+			span {
+				font-size: 1rem;
+			}
+
+			p {
+				white-space: pre;
+				word-wrap: break-word;
+			}
+		}
+	}
+}

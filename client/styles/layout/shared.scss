@@ -1,0 +1,36 @@
+.shared-legend {
+	font-weight: 600;
+	color: lighten(black, 40%);
+	font-size: 1rem;
+	margin-bottom: 4px;
+}
+.shared-input {
+	width: 240px;
+	background-color: white;
+	border: 1px solid lighten(black, 90%);
+	font-size: 1rem;
+	padding: 10px 14px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+
+	&:hover {
+		box-shadow: 0 2px 6px rgba(black, 0.1);
+	}
+	&:focus {
+		border: 1px solid #027ef9;
+	}
+}
+
+.shared-button {
+	background-color: #027ef9;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+
+.shared-error {
+	color: #d32f2f;
+	margin-bottom: 15px;
+	font-size: 1rem;
+}

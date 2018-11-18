@@ -1,0 +1,27 @@
+body,
+html {
+	background-color: lighten(black, 98%);
+}
+nav {
+	width: 100%;
+	.nav-content {
+		padding: 30px 0;
+		width: 95%;
+		margin: auto;
+		max-width: 1200px;
+		display: flex;
+		justify-content: space-between;
+
+		img {
+			width: 50px;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			li {
+				margin-left: 20px;
+			}
+		}
+	}
+}
